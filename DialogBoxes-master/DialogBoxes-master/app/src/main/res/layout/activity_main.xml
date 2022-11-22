@@ -1,0 +1,116 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonalert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog"
+        />
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="date"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="open date picker" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Select Date"
+        android:id="@+id/tvDate"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tvDisplayTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Selected Time"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnShowTimePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Show TimePicker" />
+    <Button
+        android:text="  Click To View Ring Progress Dialog..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:textStyle="normal|bold"
+        android:textSize="15sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="  Click To View Progress Dialog..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.DeviceDefault.Button.Inset"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:id="@+id/button2"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textview_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="here will be our username"
+            android:textSize="30sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textview_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_username"
+            android:gravity="center_horizontal"
+            android:text="here will be our password"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttoncustomd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_password"
+            android:layout_centerHorizontal="true"
+            android:text="open dialog" />
+
+    </LinearLayout>
+
+</LinearLayout>

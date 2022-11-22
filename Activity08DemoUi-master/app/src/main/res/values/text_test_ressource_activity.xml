@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_bvn">Toto</string>
+    <string name="message_end">Asdadurevoir</string>
+
+    <string-array name="liste">
+        <item>asdasd</item>
+        <item>dasdasdasdasd</item>
+        <item>asdasd</item>
+        <item>Tomasdasdasdate</item>
+    </string-array>
+</resources>

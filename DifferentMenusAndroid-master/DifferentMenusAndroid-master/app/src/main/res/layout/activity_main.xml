@@ -1,0 +1,39 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Options Menu"
+        android:id="@+id/optionmenu"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Context Menu"
+        android:id="@+id/contextmenu"
+        android:onClick="showcontextmenu"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showPopup"
+        android:text="show popup"
+        android:id="@+id/popupmenu"
+        ></Button>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextVoucher"
+        android:textAlignment="center"
+        android:id="@+id/ettv"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showPopup"
+        android:text="Option btn"
+        android:id="@+id/btnoption"
+        ></Button>
+</LinearLayout>

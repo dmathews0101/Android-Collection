@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_bvn">Hello</string>
+    <string name="message_end">Good bye</string>
+
+    <string-array name="liste">
+        <item>Pear</item>
+        <item>Apple</item>
+        <item>Orange</item>
+        <item>Tomato</item>
+    </string-array>
+</resources>
